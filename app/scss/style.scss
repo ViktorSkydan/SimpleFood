@@ -1,0 +1,26 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'global';
+
+.header {
+	padding: 40px 0;
+}
+
+.menu {
+	display: flex;
+	&__list {
+		display: flex;
+	}
+}
+
+.logo {
+	background-image: url(../app/images/scooter-guy.png);
+	width: 100px;
+	height: 100px;
+}
+
+
+
+
+@import 'media';
